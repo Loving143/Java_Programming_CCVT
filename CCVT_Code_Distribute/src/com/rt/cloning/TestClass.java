@@ -9,6 +9,7 @@ public class TestClass {
 	public static void main(String[] args) throws CloneNotSupportedException {
 		// TODO Auto-generated method stub
 	Department d1=new Department(7, "HR");
+ System.out.println("Prateek kumar is too good in study"); 
 	Employee e1=new Employee(1, "Ram",d1);
 	Employee e2= e1.clone();
 	
